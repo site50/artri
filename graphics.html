@@ -33,7 +33,7 @@ perspective: 1100px;
 width: 100%;
 position: absolute;
 float: right;
-animation: rotar 35s infinite linear;
+<!--animation: rotar 35s infinite linear;  включить для движения!!!!!!-->
 transform-style: preserve-3d;
 padding-top:37px;}
 .content-carrousel:hover {
@@ -89,33 +89,66 @@ transform: rotateY(0deg);
 transform: rotateY(300deg);}}
 #box6 {margin-bottom:-70px ;
 }
+
 @media (min-width: 375px) {
 .header  {height: 30px;
 }}
 @media (min-width: 412px) {
 .header  {height: 35px;
-}}
+}
+
+}
+
 @media (min-width: 684px) {
 .header  {height: 40px;
-}}
+}
+.col-lg-3{
+background-color:orange;
+height:7rem;
+}
+.col-lg-7
+{
+background-color:green;
+height:38rem;
+padding-left:14rem;}
+}
 @media (min-width: 667px)  {
 .header  {height: 45px;
-}}
+}
+
+
+}
 @media (min-width: 768px)  {
 .header  {height: 50px;
 }
+.col-lg-3{
+background-color:orange;
+height:7rem;
+}
+
 }
 @media (max-width: 1200px) {
 .header  {height: 100px;
 }
- .entire-content{
-    marging-left:43rem;
-    }   
-  }
-  @media (min-width:1024px) {
-.header  {height: 100px;}
-      
+
 }
+
+@media (min-width:1024px) {
+.header  {height: 100px;}
+.col-lg-3{
+background-color:blue;
+height:38rem;
+}
+.col-lg-7
+{
+background-color:green;
+height:38rem;
+padding-left:5rem;}
+}
+
+
+
+
 </style>
 </head>
 <body>
@@ -146,13 +179,16 @@ transform: rotateY(300deg);}}
 </div>
 </nav>
 <div class="row">
-<div class="col-lg-1" >
+<div class="col-lg-1" style="background-color:yellow;">fff
 </div>
-<div class="col-lg-3 container" style="background-color:orange;height:38rem;">
-<h3 style="padding:12rem 1rem;"><center>Graphic created using Paint <br>and Fresh Paint</center></h3>
+<div class="col-lg-3 ">
+
+<h3 ><center>Graphic created using Paint <br>and Fresh Paint</center></h3>
+
 </div>
-<div class="col-lg-7 " style="background-color:orange;height:380px;">
-<section id="slideshow"  >
+<div class="col-lg-7 " >
+
+<section id="slideshow" >
 <div class="entire-content">
 <div class="content-carrousel"  >
 <figure class="shadow"><img src="img/graphics/te.jpg"/></figure>
@@ -167,10 +203,11 @@ transform: rotateY(300deg);}}
 <figure class="shadow"><img src="img/graphics/hea.jpg"/></figure>
 <figure class="shadow"><img src="img/graphics/in.jpg"/></figure>
 <figure class="shadow"><img src="img/graphics/he.jpg"/></figure>
-</div></div>
+</div></div></div>
 </section>
-</div>
-<div class="col-lg-1 " ></div>
+
+
+<div class="col-lg-1" style="background-color:yellow;">ddd</div>
 </div>
 </body>
 </html>
