@@ -1,2 +1,4 @@
-# artri
-site of Bogdanova Rimma
+# ARTRI
+Website of Bogdanova Rimma
+
+## Quick Overview
